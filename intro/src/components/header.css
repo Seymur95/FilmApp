@@ -1,0 +1,37 @@
+header {
+    background-color: var(--primary);
+}
+header .container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container .inner-content {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .inner-content .brand a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.container .inner-content .brand a:hover {
+    opacity: .7;
+}
+.container .inner-content .nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.container .nav-links li:first-child {
+    margin-right: 9px;
+}
+.container .nav-links > li a,
+.container .nav-links li {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
