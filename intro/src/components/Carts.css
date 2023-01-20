@@ -1,0 +1,60 @@
+.carts {
+    display: flex;
+    row-gap: 20px;
+}
+
+.carts .poster-wrapper img,
+.fill {
+    width: 200px;
+    height: 300px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: rgb(231, 227, 220);
+}
+
+.carts .info {
+    line-height: 3rem;
+    display: flex;
+    width: 100%;
+}
+
+.carts .info .texts {
+    width: 70%;
+}
+
+.carts .info .title {
+    font-size: 2rem;
+    font-weight: 800;
+    color:#032541;
+
+}
+
+.carts .info .release_date {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.carts .info .vote_average {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.carts .info .controls {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carts .info .controls button {
+    height: 100%;
+    width: 47%;
+    background-color: var(--secondary);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.carts .info .controls button:hover {
+    background-color: rgb(94, 181, 94);
+}

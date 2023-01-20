@@ -1,30 +1,45 @@
 .add-page {
     width: 1100px;
+    height: 300px;
     margin: 0 auto;
     position: relative;
 }
+
 .container img {
     width: 100%;
-    
+    height: 100%;
+
 }
+
 .container .titles {
     position: absolute;
     top: 50px;
     left: 20px;
     color: white;
 }
+
 .container .titles h1 {
     font-size: 2.5rem;
     font-weight: 600;
 }
+
 .container input {
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     left: 20px;
     height: 40px;
     width: 90%;
-    padding: 7px;
     border-radius: 20px;
     outline: none;
     border: none;
+    text-indent: 15px;
+}
+
+.add-page ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.add-page ul li {
+    margin-top: 10px;
 }

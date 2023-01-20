@@ -9,6 +9,7 @@
   --primary: #032541;
   --secondary: #00A0CF;
 }
+
 .btn {
   padding: 10px 15px;
   border-radius: 9px;
@@ -17,6 +18,7 @@
   background-color: #00A0CF;
   transition: all .3 ease;
 }
+
 .btn:hover {
   opacity: 0.8;
   color: white;
