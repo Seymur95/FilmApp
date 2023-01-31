@@ -1,0 +1,25 @@
+.movie-controls {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.ctrl-btn {
+    background-color: var(--primary);
+    color: white;
+    padding: 4px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.movie-card:hover .ctrl-btn{
+    opacity: 1;
+}

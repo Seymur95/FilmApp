@@ -53,6 +53,7 @@
     color: white;
     cursor: pointer;
     border-radius: 10px;
+    transition: all 0.3;
 }
 
 .carts .info .controls button:hover {
